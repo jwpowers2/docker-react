@@ -16,6 +16,7 @@ deploy:
   env: "Docker-env"
   bucket_name: "elasticbeanstalk-us-east-1-530962333675"
   bucket_path: "docker"
+  version: "Sample Application"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
